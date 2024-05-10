@@ -1,23 +1,34 @@
 {
   "projects": [
     {
-      "id": "0d51",
-      "name": "Projeto Teste",
-      "budget": "5000",
+      "id": "a27f",
+      "name": "Novo Projeto",
+      "budget": "10000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": []
     },
     {
-      "id": "e450",
-      "name": "Meu projeto 3",
-      "budget": "15000",
+      "id": "f364",
+      "name": "Projeto 3",
+      "budget": "2000",
       "category": {
         "id": "3",
         "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "eddf",
+      "name": "Banco Digital",
+      "budget": "15000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []
