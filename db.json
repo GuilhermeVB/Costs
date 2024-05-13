@@ -8,19 +8,33 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 7000,
+      "services": [
+        {
+          "name": "Gerente de Banco de Dados",
+          "cost": "7000",
+          "description": "Gerenciar Data Warehouse",
+          "id": "273357d1-94ae-4d70-a598-4b44eb46eb0c"
+        }
+      ]
     },
     {
       "id": "f364",
-      "name": "Projeto 3",
-      "budget": "2000",
+      "name": "Projeto Atualizado",
+      "budget": "1000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 0,
-      "services": []
+      "cost": 200,
+      "services": [
+        {
+          "name": "JavaScript",
+          "cost": "200",
+          "description": "Desenvolver aplicações web",
+          "id": "8b364236-cd70-4a06-b13e-35e6c50cab37"
+        }
+      ]
     },
     {
       "id": "eddf",
