@@ -12,7 +12,7 @@ function ProjectForm({ btnText, handleSubmit, projectData }) {
     const [project, setProject] = useState(projectData || {})
 
     useEffect(() => {
-        fetch("http://localhost:5000/categories", {
+        fetch("https://json-server-liard-phi.vercel.app/categories", {
             method: "GET",
             headers: {
                 'Content-Type': 'application/json'

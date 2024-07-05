@@ -25,7 +25,7 @@ function Project() {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch(`http://localhost:5000/projects/${id}`, {
+            fetch(`https://json-server-liard-phi.vercel.app/projects/${id}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json'
@@ -50,7 +50,7 @@ function Project() {
             return false
         }
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://json-server-liard-phi.vercel.app/projects/${project.id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type': 'application/json'
@@ -91,7 +91,7 @@ function Project() {
         project.cost = newCost
 
         // update project
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://json-server-liard-phi.vercel.app/projects/${project.id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type': 'appication/json'
@@ -120,7 +120,7 @@ function Project() {
         projectUpdated.services = servicesUpdated
         projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://json-server-liard-phi.vercel.app/projects/${project.id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type': 'application/json'
